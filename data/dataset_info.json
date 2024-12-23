@@ -4,11 +4,63 @@
   },
 
   "oneturn-buyer-llama2-7b":{
-    "file_name": "buyer-Llama-2-7b-chat-hf-messages20241222-run2_gpt-4o-ca_gpt-4o-ca.json"
-  },
-  "oneturn-seller-llama2-7b":{
-      "file_name": "seller-Llama-2-7b-chat-hf-messages20241222-run2_gpt-4o-ca_gpt-4o-ca.json"
+    "file_name": "Obuyer-Llama-2-7b-chat-hf-messages20241222-run2_gpt-4o-ca_gpt-4o-ca.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
     },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+},
+  "oneturn-seller-llama2-7b":{
+      "file_name": "Oseller-Llama-2-7b-chat-hf-messages20241222-run2_gpt-4o-ca_gpt-4o-ca.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+      
+    }
+  },
+  "Obuyer":{
+    "file_name": "Obuyer-Llama-2-7b-chat-hf-messages20241222-run2_gpt-4o-ca_gpt-4o-ca.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+},
+  "Oseller":{
+      "file_name": "Oseller-Llama-2-7b-chat-hf-messages20241222-run2_gpt-4o-ca_gpt-4o-ca.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+      
+    }
+  },
   "alpaca_en_demo": {
     "file_name": "alpaca_en_demo.json"
   },

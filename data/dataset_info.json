@@ -2,6 +2,13 @@
   "identity": {
     "file_name": "identity.json"
   },
+
+  "oneturn-buyer-llama2-7b":{
+    "file_name": "buyer-Llama-2-7b-chat-hf-messages20241222-run2_gpt-4o-ca_gpt-4o-ca.json"
+  },
+  "oneturn-seller-llama2-7b":{
+      "file_name": "seller-Llama-2-7b-chat-hf-messages20241222-run2_gpt-4o-ca_gpt-4o-ca.json"
+    },
   "alpaca_en_demo": {
     "file_name": "alpaca_en_demo.json"
   },

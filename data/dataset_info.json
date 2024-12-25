@@ -2,38 +2,8 @@
   "identity": {
     "file_name": "identity.json"
   },
-
-  "oneturn-buyer-llama2-7b":{
-    "file_name": "Obuyer-Llama-2-7b-chat-hf-messages20241222-run2_gpt-4o-ca_gpt-4o-ca.json",
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "messages"
-    },
-    "tags": {
-      "role_tag": "role",
-      "content_tag": "content",
-      "user_tag": "user",
-      "assistant_tag": "assistant",
-      "system_tag": "system"
-    }
-},
-  "oneturn-seller-llama2-7b":{
-      "file_name": "Oseller-Llama-2-7b-chat-hf-messages20241222-run2_gpt-4o-ca_gpt-4o-ca.json",
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "messages"
-    },
-    "tags": {
-      "role_tag": "role",
-      "content_tag": "content",
-      "user_tag": "user",
-      "assistant_tag": "assistant",
-      "system_tag": "system"
-      
-    }
-  },
   "Obuyer":{
-    "file_name": "Obuyer-Llama-2-7b-chat-hf-messages20241222-run2_gpt-4o-ca_gpt-4o-ca.json",
+    "file_name": "Obuyer-messages20241224-run1_gpt-4o-ca_gpt-4o-ca.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages"
@@ -47,7 +17,7 @@
     }
 },
   "Oseller":{
-      "file_name": "Oseller-Llama-2-7b-chat-hf-messages20241222-run2_gpt-4o-ca_gpt-4o-ca.json",
+      "file_name": "Oseller-messages20241224-run1_gpt-4o-ca_gpt-4o-ca.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages"

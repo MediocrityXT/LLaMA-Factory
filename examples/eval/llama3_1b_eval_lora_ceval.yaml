@@ -1,0 +1,19 @@
+### model
+model_name_or_path: meta-llama/Llama-3.2-1B-Instruct
+adapter_name_or_path: saves/Llama-3.2-1B-Instruct/lora/train_2024-12-26-12-34-47
+trust_remote_code: true
+
+### method
+finetuning_type: lora
+infer_dtype: float16
+### dataset
+task: ceval_validation # choices: [mmlu_test, ceval_validation, cmmlu_test]
+template: fewshot
+lang: en
+n_shot: 5
+
+### output
+save_dir: saves/Llama-3.2-1B-Instruct/lora/eval_ceval
+
+### eval
+batch_size: 20
